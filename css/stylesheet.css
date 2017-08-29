@@ -1,0 +1,46 @@
+/* Set the font*/
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #c12828;
+}
+
+/* Adjust color of h3 */
+h3 {
+	color: #7d97ad;
+}
+
+/* Adjustments to the header area */
+header {
+	padding-top: 20px;
+}
+
+/* Extra style for the thumbnail and large center images*/
+/* Size changes to logo after media query to determine if very small screen*/
+.pic-addtl .pic-logo {
+	width: 100%;
+}
+
+/* Style the horizontal line*/
+.line {
+	border-bottom: 4px solid #7d97ad;
+}
+
+/* Extra padding for the middle section of the page*/
+.middle {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+/* Make the url font size tiny*/
+.small-url {
+	font-size: 9px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+	.pic-logo {
+		max-width: 15%;
+	}
+}
+
